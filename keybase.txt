@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/calebgross
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://calebgross.com
+  * I am calebgross (https://keybase.io/calebgross) on keybase.
+  * I have a public key with fingerprint 58D4 3573 7EE6 4F7E 79B7  95C3 9D51 B737 7EC0 32ED
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010182b50debf08f3e59b4f02ebfddba545fc01bcbe41d856830e06e7c300891f8e00a",
+            "fingerprint": "58d435737ee64f7e79b795c39d51b7377ec032ed",
+            "host": "keybase.io",
+            "key_id": "9d51b7377ec032ed",
+            "kid": "010182b50debf08f3e59b4f02ebfddba545fc01bcbe41d856830e06e7c300891f8e00a",
+            "uid": "c6bf2971ea129c3e13a1ff9388f0a519",
+            "username": "calebgross"
+        },
+        "service": {
+            "hostname": "calebgross.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1473205766,
+    "expire_in": 157680000,
+    "prev": "d82b1d4f3f5d187c104b5cbcbdcd3677bf40ac7546a7da9421c5bdb9992eccbc",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.56
+Comment: https://keybase.io/crypto
+
+yMIgAnicrVJbSBRRGF5110hYkq5UUjZhhS12ztxn9aGHCg0Kk6gEYZtzmd3JdWeb
+mV2t6CGQBDPpXkjagxFlIXYjKokMJSPCIsyiHmIhDA0KjLDI6ozUUz12Xg7/d77v
+O///8fcHc3x5WYdrP8de92kvsh73taV824e25e7jkEX2cOF9XC2dvmicUMeN1JqE
+C3MAAqjySAKEIgOohkAlDYkG4FlJCNIlUTIwgAgjKkKiSrIqAApkqmABAFWDhkoB
+0LkQZ5iJKLWTtplwma2kElGQFEGhVBYNhSoaUjQJCxqRIGKwQjEQeEqYMGY5noI1
+h3SHlpgWw1gRmW7vH/z/3Hdq2g7LyOA1BVId8hoWKBR0aBiaoKoG0CWoeUSH2gm9
+jnpsPU5R1LYch9sf4hieNjH1ovVm+YtTgq06pk/almthK87eYq6bDHtSd0/S49ZT
+FPntEkFmgrAomSBNbce0ElwYMiZ2Tc8WiorAA0mR5RBHG5KmTSOmx2CICtjxvqFp
+ZklYOJCIhmBIBKoKhkBEEmZxEEwEWVGQIQIdK5Io6wrRNZGHWEIEaZrGU8x4nDfX
+7oTFhSXWph5llo4ZTehuyqbc/gf3a/y+rDxfbiDbWzFf3sz8P4t3q3vGT/qoYOpK
+MFiVWjVa2XRp6EBfaqjwpbF35/3TLX6x+07Hcf2jf3lLafXG/GsVWw8eG/lxbupd
+Rm59XDg+cbtxg3umWVsxo+brg+FDTpF+dHBs94JAXm9HKLNO6L1ajEPl5rLLhY3z
+nn+vGpnzYvO6+Fp3bOONsdWnchcX3brc2ZA56SaDbZ3ZS0bN8qGLXSNPq/2TC5WC
+1vjXySddgd65XNOlm5t6nm3LPNywa1ZxV9GRQ3fLJgf6F/W8D4vqbJhztrn3VfbK
+OBz/MJwTq2/PrEkGvrXsDZRd71i6uglv2XGhYv1A53DBvepPlfPT7eULB9/OeXWe
+vDtgkdIvbwrqJ2IVJ34BGQpEyA==
+=PPm/
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/calebgross
+
+==================================================================
