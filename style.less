@@ -3,9 +3,14 @@
  * Author:      Caleb Gross
  */
 
-@background-color: #ecf0f1; // Flat UI - Clouds
+@background-color: #ecf0f1;
 @padding: 35px;
 @image-margin: 30px;
+@border: 3px;
+@icon: 50px;
+
+@smartphones: ~"only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait)
+";
 
 body {
 
@@ -19,54 +24,87 @@ body {
 		position: absolute;
 		height: 100%;
 		width: 100%;
-	}
 
-	.middle {
-		display: table-cell;
-		vertical-align: middle;
-	}
+		.middle {
+			display: table-cell;
+			vertical-align: middle;
 
-	.inner {
-		margin-left: auto;
-		margin-right: auto; 
-		text-align: center;
-	}
+			.inner {
+				margin-left: auto;
+				margin-right: auto; 
+				text-align: center;
 
-	#name {
-		font-size: @padding;
-		border: 3px solid;
-		padding: @padding;
-		margin-bottom: @padding / 2;
-		display: inline-block;
+				@media @smartphones {
+					width: 100%;
+				}
 
-		#first {
-			font-weight: 700;
-		}
+				#name {
+					font-size: @padding;
+					border: @border solid;
+					padding: @padding;
+					margin-bottom: @padding / 2;
+					display: inline-block;
 
-		#last {
-			font-weight: 300;
-		}
-	}
+					@media @smartphones {
+						font-size: @padding * 2.5;
+						border: @border * 2 solid;
+						padding: @padding * 2.5;
+						margin-bottom: @padding;
+					}
 
-	#subtext {
-		margin-bottom: @padding;
-	}
+					#first {
+						font-weight: 700;
+					}
 
-	#links {
+					#last {
+						font-weight: 300;
+					}
+				}
 
-		#email-icon {
-			cursor: pointer;
-		}
+				#subtext {
+					font-size: @padding / 2;
+					margin-bottom: @padding;
 
-		.icon {
-			margin-left: @image-margin;
-			margin-right: @image-margin;
+					@media @smartphones {
+						font-size: @padding * 1.25;
+						margin-bottom: @padding * 2;
+					}
+				}
 
-			img {
-				height: 50px;
-				width: 50px;
+				#links {
+
+					.row {
+						display: inline;
+
+						@media @smartphones {
+							display: inline-block;
+						}
+
+						.icon {
+							display: inline-block;
+							margin: @image-margin;
+
+							@media @smartphones {
+								margin: @image-margin * 1.5;
+							}
+
+							img {
+								height: @icon;
+								width: @icon;
+
+								@media @smartphones {
+									height: @icon * 3;
+									width: @icon * 3;
+								}
+							}
+						}
+
+						#email-icon {
+							cursor: pointer;
+						}
+					}					
+				}
 			}
 		}
 	}
-	
 }

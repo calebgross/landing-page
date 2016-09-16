@@ -14,39 +14,84 @@ body .outer {
   height: 100%;
   width: 100%;
 }
-body .middle {
+body .outer .middle {
   display: table-cell;
   vertical-align: middle;
 }
-body .inner {
+body .outer .middle .inner {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
-body #name {
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait)
+ {
+  body .outer .middle .inner {
+    width: 100%;
+  }
+}
+body .outer .middle .inner #name {
   font-size: 35px;
   border: 3px solid;
   padding: 35px;
   margin-bottom: 17.5px;
   display: inline-block;
 }
-body #name #first {
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait)
+ {
+  body .outer .middle .inner #name {
+    font-size: 87.5px;
+    border: 6px solid;
+    padding: 87.5px;
+    margin-bottom: 35px;
+  }
+}
+body .outer .middle .inner #name #first {
   font-weight: 700;
 }
-body #name #last {
+body .outer .middle .inner #name #last {
   font-weight: 300;
 }
-body #subtext {
+body .outer .middle .inner #subtext {
+  font-size: 17.5px;
   margin-bottom: 35px;
 }
-body #links #email-icon {
-  cursor: pointer;
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait)
+ {
+  body .outer .middle .inner #subtext {
+    font-size: 43.75px;
+    margin-bottom: 70px;
+  }
 }
-body #links .icon {
-  margin-left: 30px;
-  margin-right: 30px;
+body .outer .middle .inner #links .row {
+  display: inline;
 }
-body #links .icon img {
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait)
+ {
+  body .outer .middle .inner #links .row {
+    display: inline-block;
+  }
+}
+body .outer .middle .inner #links .row .icon {
+  display: inline-block;
+  margin: 30px;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait)
+ {
+  body .outer .middle .inner #links .row .icon {
+    margin: 45px;
+  }
+}
+body .outer .middle .inner #links .row .icon img {
   height: 50px;
   width: 50px;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait)
+ {
+  body .outer .middle .inner #links .row .icon img {
+    height: 150px;
+    width: 150px;
+  }
+}
+body .outer .middle .inner #links .row #email-icon {
+  cursor: pointer;
 }
