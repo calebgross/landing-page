@@ -3,31 +3,39 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Caleb Gross</title>
-	<link rel="shortcut icon" type="image/png" href="img/image.gif"/>
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	<link rel="shortcut icon" type="image/png" href="img/cg.gif"/>
 	<link rel="stylesheet" href="css/style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </head>
 <body>
 	<div class="outer">
 		<div class="middle">
 			<div class="inner">
 				<div id="name"><span id="first">CALEB</span> <span id="last">GROSS</span></div>
-				<div id="subtext">Cybersecurity and web enthusiast.</div>
+				<div id="subtext">Security and web enthusiast.</div>
 				<div id="links">
 					<div class="row">
-						<div class="icon"><a href="mailto:c@leb.email"><img src="img/email.png"></a></div>
-						<div class="icon"><a href="https://www.github.com/calebgross/"><img src="img/github.png"></a></div>
-						<div class="icon"><a href="https://www.keybase.io/calebgross/"><img src="img/key.png"></a></div>
+						<div class="icon"><img id="email-icon" src="img/email.png" title="Email"></div>
+						<div class="icon"><a href="https://www.github.com/calebgross/"><img src="img/github.png" title="GitHub"></a></div>
+						<div class="icon"><a href="https://www.linkedin.com/in/caleb-gross/"><img src="img/work.png" title="LinkedIn"></a></div>
 					</div>
 					<div class="row">
-						<div class="icon"><a href="http://klabgroz.imgur.com/"><img src="img/hammer.png"></a></div>
-						<div class="icon"><a href="http://www.chancellot.haus/"><img src="img/chancellot.png"></a></div>
+						<div class="icon"><a href="http://klabgroz.imgur.com/"><img src="img/hammer.png" title="Projects"></a></div>
+						<div class="icon"><a href="http://www.chancellot.haus/"><img src="img/chancellot.png" title="ΧΛΟΤ"></a></div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<script>$(document).ready(function(){$('body').fadeIn(1000);});</script>
+	<script>
+		$(document).ready(function(){
+			$('body').fadeIn(1000);});		
+			$('#email-icon').on('click', function() {
+				$('#name').width($('#name').width());
+			    $('#name').html('<div id="email">c'+'@'+'leb'+'.'+'email</div>');
+			    $('#subtext').html('Email me. I love emails!');
+		});
+	</script>
 </body>
 </html>

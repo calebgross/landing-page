@@ -48,7 +48,8 @@ body .outer .middle .inner #name {
 body .outer .middle .inner #name #first {
   font-weight: 700;
 }
-body .outer .middle .inner #name #last {
+body .outer .middle .inner #name #last,
+body .outer .middle .inner #name #email {
   font-weight: 300;
 }
 body .outer .middle .inner #subtext {
